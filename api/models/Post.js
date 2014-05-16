@@ -10,18 +10,11 @@ module.exports = {
 
   attributes: {
   	title: {
-      type: "string",
-      required: true
-    },
-
-  	content: {
-      type: "string",
-      required: true
-    },
-
-    auth: {
       type: 'string',
-      maxLength: 50,
+      required: true
+    },
+    content: {
+      type: 'string',
       required: true
     }
   	/* e.g.
