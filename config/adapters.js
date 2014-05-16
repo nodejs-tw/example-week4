@@ -25,11 +25,10 @@ module.exports.adapters = {
   },
 
   mysql: {
+    // username and password set in /config/local.js
+    // but local.js is in gitignore setting
     module: 'sails-mysql',
     host: "127.0.0.1",
-    user: "user",
-    password: "user1234",
-    // database: "pmd_platform"
     port: 3306,
     database: 'myapp_test'
   },
